@@ -9,29 +9,30 @@
     <title>The Great Portfolio Homework</title>
   </head>
 
-  <body>
-    <header>
+  <body class="nav">
+    <header class="nav-style">
       <h1>Adam Kuemmel</h1>
       <nav>
         <ul>
-          <li >
-            <a href="about">about</a>
+          <li>
+            <a href="#about">about</a>
           </li>
           <li >
-            <a href="portfolio">portfolio</a>
+            <a href="#portfolio">portfolio</a>
           </li>
           <li >
-            <a href="blog">blog</a>
+            <a href="#blog">blog</a>
           </li>
           <li >
-            <a href="contact">contact</a>
+            <a href="#contact">contact</a>
           </li>
        
         </ul>
       </nav>
     </header>
 
-    <article id="about-me">
+    <article id="about-me" id="about">
+      <h3>about me</h3>
       <p>
         My name is Adam and i am just entering my second week of Denver
         University's coding bootcamp. I aspire to be a full stack web developer
@@ -41,18 +42,24 @@
       </p>
     </article>
 
-    <main>
-      <section>
-        <h2>portfolio</h2>
-        <ul>
-          <li>my car</li>
-          <li>dog</li>
-          <li>my plants</li>
+    <main >
+      <section id="portfolio" class="portfolio_li">
+        <a href="#portlink">portfolio</a>
+        <ul id="portlink">
+          <li>my motorcycle
+            <img src="assets/images/stock_motorcycle.jpeg" alt="motorcycle">
+          </li>
+          <li>my dog
+             <img src="assets/images/stock_shep.jpeg" alt="dog">
+          </li>
+          <li>my plants
+             <img src="assets/images/stock_plants.jpeg" alt="plants">
+          </li>
         </ul>
       </section>
 
       <section>
-        <h2>blog</h2>
+        <h2 id="blog">blog</h2>
         <ol>
           <li>Why do we love coding?</li>
           <li>How do we relieve stress mid project?</li>
@@ -60,7 +67,7 @@
       </section>
 
       <section>
-        <h2>contact</h2>
+        <h2 id="contact">contact</h2>
         <ul>
           <li>phone<span>5166968650</span></li>
           <li>Email<span>adamkuemmel@gmail.com</span></li>
