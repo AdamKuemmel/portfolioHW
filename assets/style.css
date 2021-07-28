@@ -1,0 +1,50 @@
+nav {
+  padding: 1%;
+  background-color: #13293d;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+nav ul li a {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: gray;
+}
+
+h1 {
+  display: flex;
+  background-color: transparent;
+  font-size: 30px;
+  justify-content: center;
+}
+
+#about-me {
+  height: 640px;
+  width: 1920px;
+  background-image: url(./images/about-me-bruce.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+article {
+  display: flex;
+  justify-content: flex-end;
+}
+p {
+  height: 80%;
+  width: 20%;
+  font-size: large;
+  padding-top: 5%;
+}
+
+section ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+section ul li {
+  border: solid 4px black;
+}
