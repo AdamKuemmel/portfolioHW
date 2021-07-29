@@ -67,8 +67,8 @@ h2 {
 
 .port-item {
   display: flex;
-  font-size: large;
-  border: solid 4px black;
+  font-size: 26px;
+  padding: 10px;
 
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
@@ -77,7 +77,6 @@ h2 {
   padding: 20px;
   background: gray;
   color: #fff;
-  width: ;
 }
 .port-item img {
   width: 500px;
@@ -113,9 +112,4 @@ footer {
   justify-content: space-between;
   color: #b9c6ae;
   background-color: gray;
-}
-
-.section {
-}
-section @media screen and (min-width: 960px) {
 }
