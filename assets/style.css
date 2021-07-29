@@ -1,24 +1,32 @@
-nav {
-  padding: 1%;
-  background-color: #13293d;
-  color: #fff;
+body {
+  background-color: black;
+  margin: 5px;
 }
 
-nav ul {
+nav {
   display: flex;
-  flex-flow: row;
+  background-color: gray;
+
   justify-content: space-around;
 }
-nav ul li {
+
+nav a {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: gray;
+  color: black;
+  padding: 16px 24px;
+}
+nav a:hover {
+  color: #fff;
 }
 
 h1 {
   display: flex;
   background-color: transparent;
   font-size: 30px;
-  justify-content: center;
+  font-family: "Roboto Mono", monospace;
+  color: grey;
+  font-size: 50px;
+  padding-bottom: 30px;
 }
 
 #about-me {
@@ -27,46 +35,87 @@ h1 {
   background-image: url(./images/about-me-bruce.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  width: auto;
 }
 
-article {
-  display: flex;
-}
 p {
-  justify-content: flex-end;
-  height: 80%;
-  width: 17%;
-  font-size: large;
-  padding-top: 3%;
+  height: 40px;
+  width: 400px;
+  font-size: 20px;
+  padding-top: 33px;
+  padding-left: 1400px;
 }
+
 h3 {
-  font-size: xx-large;
+  font-size: 40px;
   padding: 20px;
 }
 
-section ul {
-  display: flex;
-  justify-content: space-around;
-}
-
-section ul li {
-  border: solid 4px black;
-}
-
 .portfolio {
-  border: solid 4px black;
+  flex: 4;
+  padding-left: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 h2 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: x-large;
+  font-size: 40px;
   padding-top: 3%;
 }
-nav a:hover {
-  color: #fff;
+
+.port-item {
+  display: flex;
+  font-size: large;
+  border: solid 4px black;
+
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-.portfolio_li {
-  font-size: large;
+.port-item h4 {
+  padding: 20px;
+  background: gray;
+  color: #fff;
+  width: ;
+}
+.port-item img {
+  width: 500px;
+  height: 337px;
+}
+
+.contact-class {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: large;
+  color: red;
+}
+span {
+  color: rgb(50, 49, 49);
+  font-size: x-large;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  flex: 1;
+  background-color: #b9c6ae;
+  padding: 80px;
+  text-align: left;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+}
+
+footer {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  color: #b9c6ae;
+  background-color: gray;
+}
+
+.section {
+}
+section @media screen and (min-width: 960px) {
 }
