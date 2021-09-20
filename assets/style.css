@@ -107,10 +107,29 @@ aside {
   font-size: 30px;
 }
 
-footer {
+/* footer {
   text-align: left;
   display: flex;
   justify-content: space-between;
   color: #b9c6ae;
   background-color: gray;
+} */
+.footer {
+  background-color: #586978;
+  color: #b9c6ae;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: x-large;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 5vh;
+}
+.img {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
 }
